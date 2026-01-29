@@ -18,7 +18,7 @@ CREATE TABLE users (
   city TEXT NOT NULL                        -- City of residence
 );
 
--- Insert sample users (3–5 rows required)
+-- Insert sample users 
 INSERT INTO users(user_id, name, age, gender, city) VALUES
   (1, 'Alex Chen', 29, 'M', 'Cleveland'),
   (2, 'Priya Iyer', 34, 'F', 'Cleveland'),
