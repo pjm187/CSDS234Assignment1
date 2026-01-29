@@ -46,6 +46,10 @@ INSERT INTO visits(visit_id, user_id, visit_date, provider) VALUES
   (103, 3, '2026-01-15', 'Dr.Gomez'),
   (105, 5, '2026-01-20', 'Dr.Patel'),
   (110, 9, '2026-02-08', 'Dr.Ahmed');
+  -- The line below would be considered harmful insertion
+  -- harmful insertion as the user_id of 6 does not belong to any of the users in that where inserted above
+  --(103, 6, '2026-02-08', 'Dr.Ahmed') Would not work
+  
 
 -- Verify visits table contents
 SELECT * FROM visits;
