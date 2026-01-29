@@ -25,8 +25,7 @@ INSERT INTO users(user_id, name, age, gender, city) VALUES
   (3, 'Sam Lee', 41, 'M', 'Beachwood'),
   (5, 'Jordan Smith', 31, 'M', 'Shaker Heights'),
   (9, 'Ethan Brooks', 45, 'M', 'Solon');
-  (10,'Lebron James', 41, 'M', 'Akron')
-
+  
 -- Verify users table contents
 SELECT * FROM users;
 
